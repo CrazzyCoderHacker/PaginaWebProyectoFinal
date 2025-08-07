@@ -1,7 +1,7 @@
 import { initializeGenerativeAI, generateContent } from "./api.js";
 
 // Inicializar la API con la clave
-const API_KEY = 'AIzaSyDC9WC91zvdGhOXf-QdZQBOo7CzIJ0FJyY'; // Reemplaza con tu clave API real
+const API_KEY = ''; // Reemplaza con tu clave API real
 const genAI = initializeGenerativeAI(API_KEY);
 
 // Asignar eventos a los botones dentro de las listas
@@ -23,3 +23,4 @@ document.querySelectorAll(".tree ul li button").forEach((button) => {
         }
     });
 });
+
