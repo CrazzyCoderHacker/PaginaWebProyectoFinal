@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "https://esm.run/@google/generative-ai";
 
 // Reemplaza 'YOUR_API_KEY' con tu clave de API real
-const API_KEY = 'AIzaSyDC9WC91zvdGhOXf-QdZQBOo7CzIJ0FJyY';
+const API_KEY = '';
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 document.getElementById('generateButton').addEventListener('click', async () => {
@@ -17,3 +17,4 @@ document.getElementById('generateButton').addEventListener('click', async () => 
         console.error('Error al generar contenido:', error);
     }
 });
+
